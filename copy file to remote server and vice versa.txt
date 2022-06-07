@@ -1,4 +1,6 @@
 Copy file from remote server to internal storage (vice versa)
+You need to have remote server password, where to or from where you want to copy file by using scp command
+scp = secure copy command
 
 1)From remote to local storage
 
