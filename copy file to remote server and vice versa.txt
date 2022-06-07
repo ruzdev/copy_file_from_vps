@@ -1,0 +1,17 @@
+Copy file from remote server to internal storage (vice versa)
+
+1)From remote to local storage
+
+Linux 
+scp root@remote-ip:/root/file_name ~/Desktop/file_name
+
+Termux
+scp root@remote-ip:/root/file_name /storage/emulated/0
+
+2) From local to remote server
+
+Linux
+scp /file_path/file_name  root@server_ip:/root/file_name
+
+Termux 
+scp /storage/emulated/0/file_name  root@server_ip:/root/file_name
